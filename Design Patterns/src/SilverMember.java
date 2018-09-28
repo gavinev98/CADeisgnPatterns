@@ -3,4 +3,9 @@ public class SilverMember implements Accounts {
     public String AccountType() {
         return "Silver Member";
     }
+
+    @Override
+    public double subCount() {
+        return 100000;
+    }
 }
