@@ -10,4 +10,19 @@ public class BronzeMember implements Accounts {
     public double subCount() {
         return 100;
     }
+
+    @Override
+    public int numViews() {
+        return 343;
+    }
+
+    @Override
+    public int numVids() {
+        return 32;
+    }
+
+    @Override
+    public double tenure() {
+        return 3;
+    }
 }
